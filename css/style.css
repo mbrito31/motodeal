@@ -22,6 +22,7 @@
 .flex1 {
   display: flex;
   justify-content: space-between;
+  
 }
 
 /* --- header --- */
@@ -122,6 +123,7 @@ button {
   content: '';
   position: absolute;
   top: 0;
+  right: 20%;
   background-image: url('../img/slide.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -227,7 +229,9 @@ button {
   color: white;
 }
 
-
+.latest .grid {
+  justify-content: center;
+}
 
 .grid {
   display: grid;
@@ -238,11 +242,12 @@ button {
 .latest .scontainer {
   padding: 50px;
   text-align: center;
+ 
 }
 
 .latest .box {
   background: #f9f9f9;
-  padding: 30px;
+  padding: 40px;
   border: 1px solid #e3e3e3;
   border-radius: 10px;
   transition: 0.5s;
@@ -254,14 +259,22 @@ button {
 }
 
 .latest .img {
-  position: relative;
+  position: relative;  
 }
+
+.latest .img img {
+  width: 80%;
+}
+
+
 
 .latest .img .flex1 {
   width: 100%;
   position: absolute;
-  top: 0;
+  top: -10%; /*subir ao topo do box os ícones*/    
 }
+
+
 
 .latest .img label {
   width: 50px;

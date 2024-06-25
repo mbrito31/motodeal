@@ -399,7 +399,12 @@ ul {
 }
 
 .wrapper .scontainer .any-image {
-  margin-top: -10%;
+  margin-top: -11%;  
+}
+
+.wrapper .scontainer .any-image img {
+  width: 70%;
+ 
 }
 
 .wrapper .text {
